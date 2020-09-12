@@ -5,7 +5,7 @@ Production Settings for Heroku
 import environ
 
 # If using in your own project, update the project namespace below
-from sysHeroku.settings.base import *
+from testeheroku.settings.base import *
 
 env = environ.Env()
 
