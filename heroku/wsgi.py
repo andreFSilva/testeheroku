@@ -1,5 +1,5 @@
 """
-WSGI config for sysHeroku project.
+WSGI config for heroku project.
 
 It exposes the WSGI callable as a module-level variable named ``application``.
 
@@ -11,6 +11,6 @@ import os
 
 from django.core.wsgi import get_wsgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'sysHeroku.settings.base')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'heroku.settings.base')
 
 application = get_wsgi_application()
